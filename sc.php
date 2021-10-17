@@ -70,9 +70,9 @@ function  create() {
         alert("ID或跳转地址不能为空！");
         return false;
     }
-    kd.href = 'https://这里填写你的域名/?id='+myid.value+'&url='+url.value; //修改此处的域名 必须要SSL证书 
+    kd.href = 'https://zyj.github.io/?id='+myid.value+'&url='+url.value; //修改此处的域名 必须要SSL证书 
     kd.style = ''; 
-    kd.innerText = 'https://填写你的域名/?id='+myid.value+'&url='+url.value; //修改此处的域名  必须要SSL证书 
+    kd.innerText = 'https://zyj.github.io/?id='+myid.value+'&url='+url.value; //修改此处的域名  必须要SSL证书 
 }
 </script>
 <div id="bob">
